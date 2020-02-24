@@ -15,6 +15,7 @@ CREATE TABLE users (
   age INTEGER
 );
 
+# A pledge has an amount. It belongs to a user, and it also belongs to a project.
 CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
   amount INTEGER,
