@@ -8,6 +8,7 @@ CREATE TABLE projects (
   end_date DATE
 );
 
+# A user has a name and an age
 CREATE TABLE users (
   id INTEGER PRIMARY KEY,
   name TEXT,
