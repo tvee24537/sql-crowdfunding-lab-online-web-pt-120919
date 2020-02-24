@@ -1,4 +1,3 @@
-# A project has a title, a category, a funding goal, a start date, and an end date.
 CREATE TABLE projects (
   id INTEGER PRIMARY KEY,
   title TEXT,
@@ -8,14 +7,12 @@ CREATE TABLE projects (
   end_date DATE
 );
 
-# A user has a name and an age
 CREATE TABLE users (
   id INTEGER PRIMARY KEY,
   name TEXT,
   age INTEGER
 );
 
-# A pledge has an amount. It belongs to a user, and it also belongs to a project.
 CREATE TABLE pledges (
   id INTEGER PRIMARY KEY,
   amount INTEGER,
